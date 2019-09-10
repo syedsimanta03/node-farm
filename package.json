@@ -1,0 +1,14 @@
+{
+  "homepage": "https://github.com/syedsimanta03/node-farm",
+  "name": "nodetry",
+  "version": "1.0.0",
+  "description": "node app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {}
+}
