@@ -93,9 +93,7 @@ const { query, pathname } = url.parse(req.url, true);
 
 
 
-server.listen(8000, '127.0.0.1', () => {
-  console.log('Listening on port 8000');
-})
+server.listen(process.env.PORT || 8000)
 
 
 
